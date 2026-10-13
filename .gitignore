@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Raw data - keep folders, don't upload files
+data/raw/*
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Processed data - don't upload files
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained models
+saved_models/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
